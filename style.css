@@ -1,0 +1,50 @@
+
+body{
+background-color: rgb(255, 243, 228);
+}
+ 
+.card {
+    width: 400px;
+    height: 300px;
+    border: 5px solid black;
+    position: relative;
+    overflow: hidden;
+    margin-left: 35%;
+    margin-top: 10%;
+    
+}
+
+.img-card {
+    width: 100%;
+    height: 100%;
+}
+
+.card h4 {
+    position: absolute;
+    left: 100%;
+    background-color: bisque;
+    width: 100%;
+    text-align: center;
+    bottom: 30px;
+    color: rgb(0, 0, 0);
+    transition: left 3s;
+  
+}
+
+.card p {
+    position: absolute;
+    left: 100%;
+    width: 100%;
+    text-align: center;
+    bottom: -15px;
+    color: wheat;
+    transition: left 4s; 
+    
+}
+
+
+
+.card:hover h4, .card:hover p{
+left: 0;
+}
+
